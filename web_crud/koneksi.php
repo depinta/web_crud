@@ -1,7 +1,7 @@
 <?php
-  $host = 'localhost';
-  $user = 'root';
-  $pass = '';
+  $host = 'database-1.ckkgrraa22jm.us-east-1.rds.amazonaws.com';
+  $user = 'admin';
+  $pass = 'admin123';
   $db = 'db_siswa';
 
   $conn = mysqli_connect($host, $user, $pass, $db);
